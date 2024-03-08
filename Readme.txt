@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+Hello! My name is Jonathan Mazurkiewicz. Welcome to my Digital Portfolio!
 
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+The projects are still a work in progress. 
+
+Please reach out to me with any inquiries.
