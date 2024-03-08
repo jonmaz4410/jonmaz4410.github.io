@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Statistical Calculator</title>
+        <link href="mycss.css" rel = "stylesheet"/>
+        
+        <!-- Bootstrap template as well as base HTML came from https://freefrontend.com/bootstrap-forms/, AUTHOR: Sam Norton, March 8, 2021 !-->
+        
+        <link href= "mytweaks.css" rel = stylesheet/>
+        
+        <script src="myjs.js"></script>
+        <!-- Javascript fully custom, except for that I had to look up how to do the median in Javascript thanks to masteringjs.io (Link: https://masteringjs.io/tutorials/fundamentals/median )!-->
+    </head>
+
+<body>
+
+<div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Calculator</h3>
+                        <p>Enter 3 numbers and press calculate at the bottom to see various statistical pieces of information, like the mean, median, etc..</p>
+                        <form id = "form">
+
+                            <div class="col-md-12">
+                                <label for "num1">Number 1</label> <br>
+                                <input class="form-control" type="text" name="num1" placeholder="Enter the first number here" required id = "num1">
+                            </div>
+                            <div class="col-md-12">
+                                <br><label for "num2">Number 2</label><br>
+                                <input class="form-control" type="text" name="num2" placeholder="Enter the second number here" required id = "num2">
+                            </div>
+                            <div class="col-md-12">
+                                <br><label for "num3">Number 3</label><br>
+                                <input class="form-control" type="text" name="num3" placeholder="Enter the third number here" required id = "num3">
+                            </div>
+                            <br>
+                            <div class="form-button mt-4">
+                                <button type="button" class="btn btn-outline-primary" id="calc">Calculate</button> <br> <br>
+                            </div>
+                            
+                            <div class="col-md-12">
+                                <label for "outputMean">Mean </label><br>
+                                <input type="text" id = "outputMean">
+                                <div>
+                                    <br><label for "outputMin">Min </label><br>
+                                    <input type="text" id = "outputMin">
+                                </div>
+                                <div>
+                                    <br><label for "outputMax">Max </label><br>
+                                    <input type="text" id = "outputMax">
+                                </div>
+                                <div>
+                                    <br><label for "outputMedian">Median </label><br>
+                                    <input type="text" id = "outputMedian">
+                                </div>
+                                <div>
+                                    <br><label for "outputRange">Range </label>
+                                    <input type="text" id = "outputRange">
+                                </div>
+                                
+                            </div>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+    </html>
